@@ -11,7 +11,6 @@ public class WhiteBoard {
 
     /* These are the buttons which we'll use to toggle our colours/delete */
     private static JButton clearButton, redButton, blackButton, magentaButton, greenButton, blueButton;
-
     /* The drawing pane we'll use */
     private DrawZone whiteBoard;
 
@@ -36,7 +35,7 @@ public class WhiteBoard {
         }
     };
 
-    public void draw() {
+    private void draw() {
         /* We declare and instantiate our WhiteBoard here */
         JFrame frame = new JFrame("WhiteBoard");
         Container content = frame.getContentPane();
